@@ -1,0 +1,18 @@
+# Do not publish the project instruction document.
+/Instructions.docx
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local environments and editor settings
+.venv/
+venv/
+.vscode/
+
+# Local model and experiment artifacts
+*.log
+*.pt
+*.pth
+*.bin
+*.safetensors
